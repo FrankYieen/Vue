@@ -1,0 +1,161 @@
+.top{
+  box-sizing: border-box;
+  height: 50px;
+  width: 100vw;
+  padding-left: 15vw;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-bottom: 5px;
+}
+
+.top-text1{
+  width: 50%;
+  height: 25px;
+  float: left;
+  margin-right: 2vw;
+}
+
+.top-text2{
+  width: 20%;
+  height: 25px;
+  float: left;
+  margin-right: 5vw;
+}
+
+.top>button{
+  margin-left: 2vw;
+  float: left;
+  height: 34px;
+  width: 5vw;
+  font-size: 0.8vw;
+  background-color: lightskyblue;
+  border-radius: 3px;
+}
+
+.main{
+  margin-top: 5px;
+  width: 80vw;
+  height: 630px;
+  margin-left: 10vw;
+  background-color: aliceblue;
+  border:1px solid black ;
+}
+
+.main-div1{
+  box-sizing: border-box;
+  padding-top: 10px;
+  background-color: gainsboro;
+  height: 40px;
+  border-bottom:1px solid black;
+}
+
+.main-div1>span{
+  margin-left: 10%;
+}
+.main-div1>span>button{
+  border:none;
+  outline: none;
+  padding-left: 0px;
+}
+
+.main-div2{
+  box-sizing: border-box;
+  height: 540px;
+}
+
+.main-div2>ul>li>div{
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 30px 0px 0px 0px;
+  height: 90px;
+  width: 100%;
+  border-bottom: 1px solid black;
+}
+
+.main-div2-item-Data{
+  margin-left: 8%;
+  width: 5%;
+}
+
+.main-div2-item-dex{
+  margin-left: 9%;
+  width: 2%;
+}
+
+.main-div2-item-Description{
+  margin-left: 10%;
+  width: 10%;
+}
+
+.main-div2-destroy {
+  margin-left: 20%;
+  display: none;
+  width: 5%;
+  font-size: 5px;
+  color: #cc9a9a;
+}
+
+.main-div2>ul>li:hover .main-div2-destroy{
+  display: inline-block;
+}
+
+.main-div2>ul>li .main-div2-destroy>button{
+  color: #ef6565;
+}
+
+.main-div2-item-Total1{
+  float: right;
+  width: 5%;
+  margin-right: 3.5%;
+}
+
+.main-div2-item-Total2{
+  float: left;
+
+}
+
+.main-div3{
+  box-sizing: border-box;
+  height: 35px;
+  border-bottom: 1px solid black;
+  background-color: aliceblue;
+}
+
+.main-div3-span{
+  width: 20%;
+  box-sizing: border-box;
+  border-right: 1px solid black;
+  height: 35px;
+}
+
+.main-div3-span button{
+  box-sizing: border-box;
+  padding: 0;
+  width: 4%;
+  height: 33px;
+  background-color: aliceblue;
+  border: 0px;
+  outline: none;
+}
+
+.main-div3-span1{
+  float: right;
+  margin-right: 1%;
+  display: inline-block;
+  width: 75%;
+  height: 34px;
+}
+.main-div3-span1>input{
+  box-sizing: border-box;
+  margin-top: 2px;
+  padding-left: 2%;
+  border: 0px;
+  width: 100%;
+  height: 90%;
+  background-color: aliceblue;
+  outline: none;
+}
+
+.main-div3-span1>input:focus{
+  background-color: #f8feff;
+}
